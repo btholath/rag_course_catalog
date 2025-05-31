@@ -101,3 +101,14 @@ MongoDB Atlas Vector Search
 AWS Bedrock API
 
 Amazon Titan Embeddings
+
+
+=========================
+Remove Any Already-Tracked PDFs
+If you’ve already added PDFs to Git (even if deleted), run:
+git rm --cached -r '*.pdf'
+
+Then commit:
+
+git commit -m "Remove PDF files and ignore in future commits"
+git status
