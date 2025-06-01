@@ -1,0 +1,8 @@
+### backend/requirements.txt
+fastapi
+uvicorn
+pymongo
+boto3
+python-dotenv
+PyMuPDF
+sentence-splitter
