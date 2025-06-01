@@ -1,0 +1,113 @@
+# Ignore all PDF files anywhere in the project
+*.pdf
+
+# Or to ignore only those inside a specific folder like "batch_job/cs_pdfs/"
+batch_job/cs_pdfs/.pdf
+
+# -------------------------
+# 🔁 GENERAL
+# -------------------------
+*.log
+*.tmp
+*.DS_Store
+*.swp
+*.swo
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# 🐍 PYTHON
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.pyd
+pip-wheel-metadata/
+*.sqlite3
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+.idea/
+.vscode/
+
+# mypy & pyright
+.mypy_cache/
+.pytype/
+.pyre/
+
+# pytest
+.cache/
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# -------------------------
+# ⚛️ REACT (Frontend)
+# -------------------------
+node_modules/
+dist/
+build/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+
+# React testing
+coverage/
+*.lcov
+jest-cache/
+jest-test-results.json
+
+# React env
+frontend/.env
+frontend/.env.*
+
+# -------------------------
+# 🐳 DOCKER
+# -------------------------
+*.pid
+*.seed
+docker-compose.override.yml
+
+# -------------------------
+# 📦 PACKAGE MANAGEMENT
+# -------------------------
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------
+# 🧪 TEST OUTPUTS
+# -------------------------
+reports/
+test-results/
+
+# -------------------------
+# 🚀 DEPLOYMENT
+# -------------------------
+frontend/.next/
+frontend/out/
+.next/
+out/
+
+
