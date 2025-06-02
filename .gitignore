@@ -1,6 +1,6 @@
 # Ignore all PDF files anywhere in the project
 *.pdf
-
+/.env
 # Or to ignore only those inside a specific folder like "batch_job/cs_pdfs/"
 batch_job/cs_pdfs/.pdf
 
