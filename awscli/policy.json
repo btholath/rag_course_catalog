@@ -1,0 +1,10 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "iam:PutUserPolicy",
+            "Resource": "arn:aws:iam::637423309379:user/my-python-app-user"
+        }
+    ]
+}
